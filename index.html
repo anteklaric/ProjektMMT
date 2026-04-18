@@ -80,19 +80,51 @@
 
     <!-- ➤ STUDENT 2 – zamijeni src -->
     <div class="photo-card">
-      <div class="photo-frame" onclick="openLightbox('img/student2-full.jpg')">
+      <div class="photo-frame" onclick="openLightbox('img/Josip.jpg')">
         <div class="photo-placeholder">
-          <svg width="44" height="44" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z"/>
-          </svg>
-          <span>Kolegina slika<br><small>img/student2.jpg</small></span>
+          <img src="img/Josip_m.jpg">
         </div>
       </div>
-      <div class="photo-name-badge">Josip Kranic</div>
+      <div class="photo-name-badge">Ante Klarić</div>
     </div>
+
 
   </div>
 </header>
+
+
+<!-- PORTFOLIO / CV SEKCIJA -->
+<section class="portfolio-section" id="o-nama">
+  <p class="section-label">Tko smo mi</p>
+  <h2>Portfolio</h2>
+  <p style="color:var(--muted);margin-bottom:2.5rem;max-width:600px;">
+    Saznajte više o našem obrazovanju, vještinama i iskustvu. Kliknite na karticu za detalje.
+  </p>
+
+  <!-- TAB NAVIGACIJA -->
+  <div class="portfolio-tabs">
+    <button class="portfolio-tab active" data-student="ante">
+      <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z"/>
+      </svg>
+      Ante Klarić
+    </button>
+    <button class="portfolio-tab" data-student="josip">
+      <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z"/>
+      </svg>
+      Josip Kranic
+    </button>
+  </div>
+
+  <!-- SADRŽAJ PORTFOLIA -->
+  <div class="portfolio-content" id="portfolioContent">
+    <div class="loading-spinner">
+      <div class="spinner"></div>
+      <p>Učitavanje podataka...</p>
+    </div>
+  </div>
+</section>
 
 <!-- KOLEGE (linkovi) -->
 <div class="colleagues">
@@ -224,6 +256,8 @@
 </div>
 
 <!-- JAVASCRIPT -->
+ <!-- JAVASCRIPT -->
+<script src="portfolio.js"></script>
 <script>
   /* ─── LIGHTBOX ─── */
   function openLightbox(src) {
