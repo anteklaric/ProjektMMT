@@ -7,47 +7,47 @@ const studentsData = {
   ante: {
     name: "Ante Klarić",
     basicInfo: {
-      dateOfBirth: "15. ožujka 2003.",
-      placeOfBirth: '<a href="https://hr.wikipedia.org/wiki/Zagreb" target="_blank">Zagreb</a>',
-      residence: '<a href="https://hr.wikipedia.org/wiki/Zagreb" target="_blank">Zagreb, Hrvatska</a>',
+      dateOfBirth: "27. rujan 2004.",
+      placeOfBirth: '<a href="https://hr.wikipedia.org/wiki/Zenica" target="_blank">Zenica</a>',
+      residence: '<a href="https://hr.wikipedia.org/wiki/%C5%BDep%C4%8De" target="_blank">Žepče, Bosna i Hercegovina</a>',
       gender: "Muško",
-      hobbies: '<a href="https://hr.wikipedia.org/wiki/Nogomet" target="_blank">Nogomet</a>, <a href="https://hr.wikipedia.org/wiki/Programiranje" target="_blank">Programiranje</a>, Putovanja'
+      hobbies: '<a href="https://hr.wikipedia.org/wiki/Kickboxing" target="_blank">Kickboxing</a>, <a href="https://hr.wikipedia.org/wiki/Nogomet" target="_blank">Nogomet</a>, Sviranje gitare'
     },
     education: [
       {
-        institution: '<a href="https://www.os-stjepanradica-zg.skole.hr/" target="_blank">OŠ Stjepan Radić</a>',
-        period: "2010. - 2018.",
-        location: "Zagreb"
+        institution: '<a href="https://www.oszepce.org/" target="_blank">OŠ Žepče</a>',
+        period: "2010. - 2019.",
+        location: "Žepče"
       },
       {
-        institution: '<a href="https://www.ss-tehnicka-zg.skole.hr/" target="_blank">Tehnička škola Zagreb</a>',
-        period: "2018. - 2022.",
-        location: "Zagreb",
-        note: "Smjer: Elektrotehničar računalstva"
+        institution: '<a href="https://smszepce.info/" target="_blank">Srednja mješovita škola Žepče</a>',
+        period: "2019. - 2023.",
+        location: "Žepče",
+        note: "Smjer: Web dizajner"
       },
       {
         institution: '<a href="https://www.ferit.unios.hr" target="_blank">FERIT Osijek</a>',
-        period: "2022. - danas",
+        period: "2023. - danas",
         location: "Osijek",
         note: "Stručni prijediplomski studij računarstva"
       }
     ],
     skills: [
       { name: "HTML & CSS", level: 85 },
-      { name: "JavaScript", level: 75 },
+      { name: "JavaScript", level: 85 },
       { name: "Python", level: 70 },
-      { name: "C++", level: 65 },
+      { name: "SQL", level: 80 },
       { name: "Git & GitHub", level: 80 }
     ],
     workExperience: [
       {
-        position: "Web Developer - Praksa",
-        company: "TechStart d.o.o.",
-        period: "Ljeto 2024.",
-        description: "Razvoj responzivnih web stranica koristeći HTML, CSS i JavaScript"
+        position: "Full-Stack Web Developer - Praksa",
+        company: '<a href="https://customisedcloud.hr/" target="_blank">Customised Cloud d.o.o.</a>',
+        period: "15.12.2025 - 30.1.2026.",
+        description: "Razvoj full-stack web aplikacije koristeći tehnologije Angular i Laravel"
       }
     ],
-    otherInfo: "Aktivan član studentskog kluba programiranja. Sudjelovao na hackathonu \"Code Challenge 2024\" gdje je tim osvojio 3. mjesto."
+    otherInfo: 'Sudjelovao u <a href="https://www.facebook.com/leadprogramBiH/?locale=hr_HR" target="_blank">LEAD programu</a> Ambasade Sjedinjenih Američkih Država u Bosni i Hercegovini od 2020. do 2022., edukacijskom programu za razvoj timskog rada i građanskog angažmana.'
   },
   
   josip: {

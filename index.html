@@ -37,16 +37,15 @@
 
       <!-- Audio 1 -->
       <div class="audio-widget">
-        <button class="audio-play-btn" id="audioBtn1" title="Pusti audio – Student 1">
+        <button class="audio-play-btn" id="audioBtn1" title="Pusti audio - Ante Klarić">
           <svg width="16" height="16" fill="white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
         </button>
         <div class="audio-info">
           <div class="audio-title">🎙 Ante Klarić</div>
-          <div class="audio-sub">Verbalni uvod · do 15 s</div>
+          <div class="audio-sub">Verbalni uvod  do 15 s</div>
           <div class="audio-progress"><div class="audio-progress-bar" id="audioBar1"></div></div>
         </div>
-        <!-- ➤ ZAMIJENI src -->
-        <audio id="myAudio1"><source src="audio/student1.mp3" type="audio/mpeg"></audio>
+        <audio id="myAudio1"><source src="audio/ante.mp3" type="audio/mpeg"></audio>
       </div>
 
       <!-- Audio 2 -->
@@ -56,10 +55,9 @@
         </button>
         <div class="audio-info">
           <div class="audio-title">🎙 Josip Kranic</div>
-          <div class="audio-sub">Verbalni uvod · do 15 s</div>
+          <div class="audio-sub">Verbalni uvod do 15 s</div>
           <div class="audio-progress"><div class="audio-progress-bar" id="audioBar2"></div></div>
         </div>
-        <!-- ➤ ZAMIJENI src -->
         <audio id="myAudio2"><source src="audio/student2.mp3" type="audio/mpeg"></audio>
       </div>
 
@@ -85,7 +83,7 @@
           <img src="img/Josip_m.jpg">
         </div>
       </div>
-      <div class="photo-name-badge">Ante Klarić</div>
+      <div class="photo-name-badge">Josip Kranic</div>
     </div>
 
 
@@ -196,9 +194,61 @@
   </div>
 </section>
 
+<section class="video-section" id="video">
+  <h2 style="text-align:center;">Video</h2>
+  <p style="color:var(--muted);margin-bottom:2.5rem;text-align:center;">
+    Kratki isječci o mjestima stanovanja, fakultetu ili aktivnostima.
+  </p>
+
+  <div class="video-grid-2" style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:1100px;margin:0 auto;">
+
+    <!-- VIDEO 1 -->
+    <div>
+      <div style="font-family:var(--ff-head);font-size:1rem;font-weight:700;color:var(--accent);margin-bottom:0.8rem;text-align:center;">
+        Ante Klarić - isječak o mjestu stanovanja
+      </div>
+      <div class="video-wrap">
+          <video controls poster="img/video1-thumb.jpg">
+            <source src="video/zepce.mp4" type="video/mp4">
+          </video>
+      </div>
+    </div>
+
+    <!-- VIDEO 2 -->
+    <div>
+      <div style="font-family:var(--ff-head);font-size:1rem;font-weight:700;color:var(--accent2);margin-bottom:0.8rem;text-align:center;">
+        Partnerovo Ime
+      </div>
+      <div class="video-wrap">
+        <!--
+          OPCIJA A – vlastiti video:
+          <video controls poster="img/video2-thumb.jpg">
+            <source src="video/student2.mp4" type="video/mp4">
+          </video>
+
+          OPCIJA B – YouTube embed:
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_2"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        -->
+        <div class="video-placeholder">
+          <svg width="56" height="56" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+            <path d="M10 8l6 3.5L10 15z" fill="currentColor" opacity="0.3"/>
+          </svg>
+          <p>Video – Student 2</p>
+          <small>Zamijeni ovaj placeholder</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 <!-- KOLEGIJ INFO -->
 <section id="kolegiji" style="background: var(--bg);">
-  <p class="section-label">Akademski okvir</p>
   <h2>O kolegiju</h2>
   <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:2.5rem;max-width:700px;">
     <p style="color:var(--muted);line-height:1.8;margin-bottom:1.5rem;">
